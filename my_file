@@ -5,3 +5,12 @@
   (print (atom? 'apple))
   (print (atom? '(apple)))
   (print (atom? '((apple))))
+
+
+  (define add
+    (lambda (x)
+      (+ x 4)))
+
+(print (add 4))
+(print (add 3))
+(print (add 2))
